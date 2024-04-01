@@ -1111,7 +1111,7 @@ section {
     box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
     padding: 40px 20px;
     transition: all ease-in-out 0.4s;
-    background: #fff;
+    /* background: #fff; */
 }
 .services .icon-box .icon {
     margin-bottom: 10px;
@@ -1129,18 +1129,18 @@ padding-right: calc(var(--bs-gutter-x)* .5);
     display: flex !important;
 }
 .icon-box a {
-    color: #0E5E81;
+    color: #fff;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 19px;
+    font-weight: 900;
+    font-size: 21px;
 }
 .mt-4 {
     margin-top: 1.5rem !important;
 }
 
-.section-bg {
+/* .section-bg {
     background-color: #f3f5fa;
-}
+} */
 /* service-section */
 
 
@@ -2157,6 +2157,7 @@ width: 100%;
 }
 .service-para{
 margin-top: 16px;
+color: #fff;
 }
 
 
@@ -2855,4 +2856,94 @@ font-size: 15px;
     }
 .conbtn{
     background-color: #000000;
+}
+
+
+/* .services */
+.hero-block {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 60px 0;
+    /* background-color: #1c1c1c; */
+}
+.section-bg{
+ background-color: #1c1c1c;
+}
+.container-wide {
+    max-width: 1240px;
+}
+.container, .container-wide, .container-small, .container-fluid, .container-medium {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.align-items-center {
+    align-items: center;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+/* [class*=col-] {
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+} */
+.hero-block .content-wrap {
+    padding: 30px 0;
+}
+.hero-block .content-wrap .block-title {
+    font-family: joyride std, sans-serif;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.hero-block .content-wrap .block-title span.outline {
+    -webkit-text-stroke: 2px #fff;
+    -webkit-text-fill-color: transparent;
+}
+.hero-block .content-wrap .block-title span {
+    display: block;
+    white-space: nowrap;
+}
+.hero-block .content-wrap .block-title span {
+    display: block;
+    white-space: nowrap;
+}
+.hero-block .content-wrap .text-content {
+    margin-bottom: 40px;
+}
+.text-content p,.text-content li {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    line-height: 1.9;
+}
+.text-content p {
+    color: #fff;
+    margin: 0 0 15px;
+}
+
+.hero-block .image-wrap.fade-in {
+    opacity: 1;
+    transform: translateX(0);
+}
+.hero-block .image-wrap {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 30px;
+    opacity: 0;
+    transform: translateX(80px);
+    transition: all .6s;
+}
+.hero-block .image-wrap img {
+    width: 100%;
+    height: auto;
 }
