@@ -1,9 +1,10 @@
 .lb_slider {
     width: 100%;
     overflow: hidden;
-    background: url(../images/bnr.webp) no-repeat center center;
+    background: url(banner.jpg) no-repeat center center;
     padding: 0;
-    position: relative
+    position: relative;
+    background-size: 100% 100%;
 }
 
 .lb_slider .main {
@@ -26,9 +27,9 @@
 
 .lb_slider .cardsmall {
     position: absolute;
-    left: -47px;
+    left: -11px;
     bottom: -3px;
-    max-width: 296px
+    max-width: 226px;
 }
 
 .lb_slider .mainslider .item .lb_sld_cont {
@@ -60,8 +61,8 @@
     margin: -21px 0 5px;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 130px;
-    text-shadow: 0 0 18px #005dac;
+    font-size:90px;
+    text-shadow: 0 0 18px #ac8700;
     line-height: normal;
     color: #fff
 }
@@ -93,7 +94,7 @@
 }
 
 .lb_slider .mainslider .item .lb_sld_img {
-    width: 1025px;
+    width: 518px;
     position: absolute;
     margin: 0;
     right: 0;
@@ -103,7 +104,7 @@
 .lb_slider .mainslider .item .lb_sld_img .sicard {
     position: absolute;
     left: 25px;
-    bottom: -45px;
+    bottom: 5px;
     max-height: 773px;
     z-index: 1;
     display: block
@@ -356,4 +357,154 @@
 
 .lb_parnter .lb_partner_card.anim {
     transform: translate(-10px,10px)
+}
+@media screen and (max-width: 767px){
+
+    .lb_slider .cardsmall {
+        display: none
+    }
+
+    .lb_slider .mainslider .item .lb_sld_cont {
+        width: 100%;
+        padding: 0 10px 30px;
+        text-align: center
+    }
+
+    .lb_slider .mainslider .item .lb_sld_cont .lb {
+        margin: 0 0 12px;
+        font-size: 11px;
+        padding: 5px 10px
+    }
+
+    .lb_slider .mainslider .item {
+        padding: 0
+    }
+
+    .lb_slider .mainslider .item .lb_sld_cont h3 {
+        font-size: 14px
+    }
+
+    .lb_slider .mainslider .item .lb_sld_cont h2 {
+        font-size: 52px;
+        margin: -8px 0 -2px
+    }
+
+    .lb_slider .mainslider .item .lb_sld_img {
+        transform: scale(1);
+        width: 100%;
+        position: static;
+        height: 230px
+    }
+
+    .lb_slider .mainslider .item .lb_sld_img .sicard {
+        width: auto;
+        max-width: 100%;
+        max-height: 269px;
+        left: 0;
+        bottom: -3px
+    }
+
+    .lb_slider .mainslider .item .lb_sld_cont p {
+        max-width: 246px;
+        font-size: 14px;
+        margin: 0 auto 23px;
+        line-height: 18px
+    }
+
+    .lb_slider .mainslider .item .lb_sld_cont .a_id {
+        font-size: 16px;
+        padding: 14px 23px
+    }
+
+    .lb_slider .mainslider {
+        padding: 117px 0 0
+    }
+
+    .lb_slider .mainslider .item .lb_sld_img .si.si1 {
+        max-width: 115px;
+        max-height: 200px;
+        right: 56%
+    }
+
+    .lb_slider .mainslider .item .lb_sld_img .si.si2 {
+        max-width: 205px;
+        max-height: 226px;
+        right: 24%
+    }
+
+    .lb_slider .mainslider .item .lb_sld_img .si.si3 {
+        max-width: 210px;
+        max-height: 180px;
+        right: -10%
+    }
+
+    .lb_slider .mainslider .item .lb_sld_img .si.si4 {
+        max-width: 210px;
+        max-height: 200px;
+        right: 56%
+    }
+
+    .lb_slider .mainslider .item .lb_sld_img .si.si5 {
+        max-width: 170px;
+        max-height: 230px;
+        right: 27%
+    }
+
+    .lb_slider .mainslider .item .lb_sld_img .si.si6 {
+        max-width: 200px;
+        max-height: 180px;
+        right: -10%
+    }
+
+    .lb_slider .mainslider .item .lb_sld_img .si.si7 {
+        max-width: 160px;
+        max-height: 200px;
+        right: 50%
+    }
+
+    .lb_slider .mainslider .item .lb_sld_img .si.si8 {
+        max-width: 150px;
+        max-height: 226px;
+        right: 24%
+    }
+
+    .lb_slider .mainslider .item .lb_sld_img .si.si9 {
+        max-width: 160px;
+        max-height: 180px;
+        right: -10%
+    }
+}
+
+
+
+@media (max-width: 320px){
+    
+    .lb_slider .mainslider .item .lb_sld_cont h2 {
+        font-size: 44px !important;
+    }
+}
+
+
+@media(min-width: 430px) and (max-width:500px) {
+    .lb_slider .mainslider .item .lb_sld_img .sicard {
+        left:55px!important
+    }
+}
+
+@media(min-width: 500px) and (max-width:680px) {
+    .lb_slider .mainslider .item .lb_sld_img .sicard {
+        left:130px!important
+    }
+}
+
+@media(min-width: 681px) and (max-width:720px) {
+    .lb_slider .mainslider .item .lb_sld_img .sicard {
+        left:180px!important
+    }
+}
+
+@media(min-width: 720px) and (max-width:767px) {
+    .lb_slider .mainslider .item .lb_sld_img .sicard {
+        left:180px!important
+    }
 }
