@@ -1656,7 +1656,7 @@ section {
 }
 
 .lb_header.fixed {
-    background: rgba(40, 58, 90, 0.9);
+    background: #000000a6;
     padding: 19px 40px;
 }
 .lb_header .lb_logo {
