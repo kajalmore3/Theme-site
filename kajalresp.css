@@ -1,0 +1,32 @@
+@media (min-width: 768px){
+.hero-block {
+    min-height: 650px;
+}
+.col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+.hero-block .content-wrap .block-title.medium-font {
+    font-size: 60px;
+    line-height: .9;
+}
+.col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.hero-block .image-wrap {
+    width: 500px;
+    max-width: none;
+    margin-top: 0;
+}
+}
+@media (min-width: 77.5rem){
+.hero-block .content-wrap .block-title.medium-font {
+    font-size: 90px;
+}
+.hero-block .image-wrap {
+    width: 550px;
+}
+}
