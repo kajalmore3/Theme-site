@@ -1917,6 +1917,11 @@ section {
         background-position: 50% 50%;
         min-height:  549px;
     }
+    .susmita{
+        background-image: url(https://t4.ftcdn.net/jpg/01/90/50/97/240_F_190509787_fHkw7bXy2dhUyqtOWRtMMvIV6JUr2vtY.jpg);
+        background-color: #000;
+        opacity: 0.7;
+    }
     .AW{
     font-size: 5rem;
     margin: 4% 0 4%;
