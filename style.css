@@ -34,6 +34,7 @@
         border: 0;
         text-decoration: none;
         display: inline-block;
+        color: #000;
     }
 
     .home_wrapper {
@@ -1923,9 +1924,18 @@ section {
         opacity: 0.9;
     }
     .AW{
-    font-size: 5rem;
+    /* font-size: 5rem; */
     margin: 4% 0 4%;
     line-height: 1.1;
+    -webkit-text-stroke: 2px #fff;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 65px;
+    font-family: joyride std, sans-serif;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 900;
     }
     .col-lg-6a h6{
     font-size: 1.125rem;
@@ -1936,6 +1946,7 @@ section {
     }
     .con{
         margin: 5% 0 5% 0;
+        color: #fff;
     }
     .u-active-palette-2-base{
     color: #ffffff !important;
@@ -2862,7 +2873,7 @@ font-size: 15px;
         height: 15px;
     }
 .conbtn{
-    background-color: #000000;
+    background-color: #fff;
 }
 
 
@@ -3053,4 +3064,16 @@ font-size: 15px;
 }
 .elementor-18841 .elementor-element.elementor-element-f284c6f:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap, .elementor-18841 .elementor-element.elementor-element-f284c6f>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #F2F2F2;
+}
+
+.about-us{
+    -webkit-text-stroke: 2px #fff !important;
+    -webkit-text-fill-color: transparent !important;
+    text-align: center !important;
+    font-size: 65px;
+    font-family: joyride std, sans-serif;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 900;
 }
