@@ -1150,9 +1150,10 @@ padding-right: calc(var(--bs-gutter-x)* .5);
 
 /* contact-section */
 .cta {
-    background: linear-gradient(rgb(0 7 19 / 90%), rgb(2 11 26 / 21%)), url(images/pexels-photo-4043022.webp) fixed center center !important;
+    /* background: linear-gradient(rgb(0 7 19 / 90%), rgb(2 11 26 / 21%)), url(images/pexels-photo-4043022.webp) fixed center center !important; */
     background-size: cover;
-    padding: 120px 0;
+    /* padding: 120px 0; */
+    background-color: #37517e;
 }
 @media (min-width: 1200px){
 .containercc {
