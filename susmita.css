@@ -512,4 +512,6 @@
 /* benifits */
 .shalu{
     background-image: url(images/services_banner.png);
+    background-color: #000;
+    opacity: 0.9;
 }
