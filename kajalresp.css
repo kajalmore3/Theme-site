@@ -21,6 +21,12 @@
     max-width: none;
     margin-top: 0;
 }
+.elementor-column.elementor-col-100, .elementor-column[data-col="100"] {
+    width: 100%;
+}
+.elementor-column.elementor-col-25, .elementor-column[data-col="25"] {
+    width: 25%;
+}
 }
 @media (min-width: 77.5rem){
 .hero-block .content-wrap .block-title.medium-font {
