@@ -26,6 +26,8 @@
     max-width: 33.33333%;
 }
 
+
+
 }
 @media (min-width: 77.5rem){
 .hero-block .content-wrap .block-title.medium-font {
@@ -52,5 +54,10 @@
 @media (min-width: 992px){
 .section-with-mouse .section-with-mouse__text-wrapper {
     display: flex;
+}
+}
+@media (max-width: 768px){
+.section-title p{
+    width: 320px !important;
 }
 }
