@@ -1942,8 +1942,7 @@ section {
     }
     .about_banner{
         background-image: url(images/bg-our\ service.webp);
-        background-color: #000;
-        opacity: 0.9;
+       
     }
     .AW{
     /* font-size: 5rem; */
