@@ -256,7 +256,15 @@ strong {
     font-size: 45px;
     font-weight: 900;
     margin-bottom: .8em;
-    color: #37517e;
+    color: #e8ebf0;
+}
+.partner-title2 {
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: .8em;
+    color: #c0a226;
+   
+   
 }
 .partner_section {
     background: #fcfcfc;
@@ -319,7 +327,7 @@ strong {
 
 .clients_sub_text{
     margin: 0 auto;
-    color: #686868;
+    color: #e8ebf0;
     /* padding: 0px 129px; */
     width: 785px;
     line-height: 21px;
@@ -858,7 +866,7 @@ section {
 }
 
 #our-work{
-    background-color: #f3f5fa;
+    background-color: #37517e;
 }
 
 
@@ -1237,7 +1245,7 @@ padding-right: calc(var(--bs-gutter-x)* .5);
       & h2 {
         font-size: 1.75rem;
         margin-bottom: 1rem;
-        color: var(--_bold);
+        color: #e8ebf0;
       }
   
       & span {
@@ -1246,7 +1254,7 @@ padding-right: calc(var(--bs-gutter-x)* .5);
       }
   
       & p {
-        color: var(--_text);
+        color: #e8ebf0;
         line-height: 1.6;
         font-size: 16px;
     
@@ -3086,3 +3094,7 @@ font-size: 15px;
     margin-bottom: 30px;
     font-weight: 900;
 }
+
+
+
+
