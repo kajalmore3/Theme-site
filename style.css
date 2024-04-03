@@ -1668,7 +1668,7 @@ section {
 }
 
 .lb_header.fixed {
-    background: #0000005c;
+    background: #000000;
     padding: 19px 40px;
 }
 .lb_header .lb_logo {
@@ -1856,7 +1856,7 @@ section {
  /* / media query for mobile / */
 @media screen and (max-width: 767px) {
         .lb_header {
-            background: rgba(40, 58, 90, 0.9);
+            background: #000000;
             padding: 15px 20px;
             text-align: center
         }
@@ -1882,7 +1882,7 @@ section {
             top: 100%;
             padding: 10px 0;
             margin: 0;
-            background: rgba(40, 58, 90, 0.9);
+            background:#000000;
             border-top: 2px solid #005dac
         }
     
@@ -1914,8 +1914,8 @@ section {
     top: 100%;
     padding: 10px 0;
     margin: 0;
-    background: rgba(40, 58, 90, 0.9);
-    border-top: 2px solid #005dac;
+    background:#000000;
+    border-top: 2px solid #000000;
 }
 }
 
@@ -1928,7 +1928,7 @@ section {
         background-position: 50% 50%;
         min-height:  549px;
     }
-    .susmita{
+    .about_banner{
         background-image: url(images/bg-our\ service.webp);
         background-color: #000;
         opacity: 0.9;
@@ -1981,6 +1981,11 @@ section {
        
         font-size: 3rem;
         text-transform: uppercase;
+    }
+    @media  (max-width:767px) {
+        .about_banner{
+            background-size: contain;
+        }
     }
     @media (min-width: 1200px){
     .containera {
@@ -3053,6 +3058,8 @@ font-size: 15px;
 .elementor-widget-image img {
     vertical-align: middle;
     display: inline-block;
+    width: 135px;
+    height: 40px;
 }
 .elementor img {
     height: auto;
