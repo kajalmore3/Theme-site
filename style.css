@@ -1130,6 +1130,9 @@ section {
 .services .icon-box .icon img {
     width: 25%;
 }
+.services {
+    padding: 0;
+}
 .col-xl-3{
 padding-right: calc(var(--bs-gutter-x)* .5);
     padding-left: calc(var(--bs-gutter-x)* .5);
@@ -1147,6 +1150,9 @@ padding-right: calc(var(--bs-gutter-x)* .5);
 }
 .mt-4 {
     margin-top: 1.5rem !important;
+}
+.services section{
+    padding: 0;
 }
 
 /* .section-bg {
