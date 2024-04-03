@@ -105,92 +105,92 @@ function copyToClipboard(sourceId, targetId, successIconId, copyIconId) {
   }
 
 
-  // accepting cookies
-  window.onload = function () {
-    var cookiePopup = document.getElementById("cookie-popup");
-    var acceptButton = document.getElementById("cookie-accept");
-    var declineButton = document.getElementById("cookie-decline");
+  // // accepting cookies
+  // window.onload = function () {
+  //   var cookiePopup = document.getElementById("cookie-popup");
+  //   var acceptButton = document.getElementById("cookie-accept");
+  //   var declineButton = document.getElementById("cookie-decline");
   
-    // Check if the user has previously accepted or declined cookies
-    var cookieStatus = getCookie("cookieStatus");
-    if (cookieStatus === "accepted" || cookieStatus === "declined") {
-      cookiePopup.style.display = "none"; // Hide the popup if cookies are previously accepted or declined
-    } else {
-      cookiePopup.style.display = "block"; // Show the popup if cookies are not previously accepted or declined
-    }
+  //   // Check if the user has previously accepted or declined cookies
+  //   var cookieStatus = getCookie("cookieStatus");
+  //   if (cookieStatus === "accepted" || cookieStatus === "declined") {
+  //     cookiePopup.style.display = "none"; // Hide the popup if cookies are previously accepted or declined
+  //   } else {
+  //     cookiePopup.style.display = "block"; // Show the popup if cookies are not previously accepted or declined
+  //   }
   
-    acceptButton.onclick = function () {
-      cookiePopup.style.display = "none"; // Hide the popup
-      setCookie("cookieStatus", "accepted", 365); // Set cookie status as accepted for 1 year
-      storeUserData(); // Store user data
-    };
+  //   acceptButton.onclick = function () {
+  //     cookiePopup.style.display = "none"; // Hide the popup
+  //     setCookie("cookieStatus", "accepted", 365); // Set cookie status as accepted for 1 year
+  //     storeUserData(); // Store user data
+  //   };
   
-    declineButton.onclick = function () {
-      cookiePopup.style.display = "none"; // Hide the popup
-      setCookie("cookieStatus", "declined", 365); // Set cookie status as declined for 1 year
-      storeIPAddress(); // Store IP address only
-    };
+  //   declineButton.onclick = function () {
+  //     cookiePopup.style.display = "none"; // Hide the popup
+  //     setCookie("cookieStatus", "declined", 365); // Set cookie status as declined for 1 year
+  //     storeIPAddress(); // Store IP address only
+  //   };
   
-    function storeUserData() {
-      // Store user agent
-      var userAgent = navigator.userAgent;
-      var userAgentExpiration = new Date();
-      userAgentExpiration.setTime(userAgentExpiration.getTime() + (365 * 24 * 60 * 60 * 1000)); // Set expiration time to 1 year from now
-      document.cookie = "userAgent=" + encodeURIComponent(userAgent) + "; expires=" + userAgentExpiration.toUTCString() + "; path=/";
+  //   function storeUserData() {
+  //     // Store user agent
+  //     var userAgent = navigator.userAgent;
+  //     var userAgentExpiration = new Date();
+  //     userAgentExpiration.setTime(userAgentExpiration.getTime() + (365 * 24 * 60 * 60 * 1000)); // Set expiration time to 1 year from now
+  //     document.cookie = "userAgent=" + encodeURIComponent(userAgent) + "; expires=" + userAgentExpiration.toUTCString() + "; path=/";
   
-      // Fetch user's IP address and store in cookie
-      fetch('https://api.ipify.org?format=json')
-        .then(response => response.json())
-        .then(data => {
-          var ipAddressExpiration = new Date();
-          ipAddressExpiration.setTime(ipAddressExpiration.getTime() + (365 * 24 * 60 * 60 * 1000)); // Set expiration time to 1 year from now
-          document.cookie = "ipAddress=" + data.ip + "; expires=" + ipAddressExpiration.toUTCString() + "; path=/";
-        })
-        .catch(error => console.error(error));
+  //     // Fetch user's IP address and store in cookie
+  //     fetch('https://api.ipify.org?format=json')
+  //       .then(response => response.json())
+  //       .then(data => {
+  //         var ipAddressExpiration = new Date();
+  //         ipAddressExpiration.setTime(ipAddressExpiration.getTime() + (365 * 24 * 60 * 60 * 1000)); // Set expiration time to 1 year from now
+  //         document.cookie = "ipAddress=" + data.ip + "; expires=" + ipAddressExpiration.toUTCString() + "; path=/";
+  //       })
+  //       .catch(error => console.error(error));
   
-      // Fetch user's geolocation and store in cookie
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function (position) {
-          var locationExpiration = new Date();
-          locationExpiration.setTime(locationExpiration.getTime() + (365 * 24 * 60 * 60 * 1000)); // Set expiration time to 1 year from now
-          document.cookie = "geolocation=" + position.coords.latitude + "," + position.coords.longitude + "; expires=" + locationExpiration.toUTCString() + "; path=/";
-        });
-      }
-    }
+  //     // Fetch user's geolocation and store in cookie
+  //     if (navigator.geolocation) {
+  //       navigator.geolocation.getCurrentPosition(function (position) {
+  //         var locationExpiration = new Date();
+  //         locationExpiration.setTime(locationExpiration.getTime() + (365 * 24 * 60 * 60 * 1000)); // Set expiration time to 1 year from now
+  //         document.cookie = "geolocation=" + position.coords.latitude + "," + position.coords.longitude + "; expires=" + locationExpiration.toUTCString() + "; path=/";
+  //       });
+  //     }
+  //   }
   
-    function storeIPAddress() {
-      // Fetch user's IP address and store in cookie
-      fetch('https://api.ipify.org?format=json')
-        .then(response => response.json())
-        .then(data => {
-          var ipAddressExpiration = new Date();
-          ipAddressExpiration.setTime(ipAddressExpiration.getTime() + (365 * 24 * 60 * 60 * 1000)); // Set expiration time to 1 year from now
-          document.cookie = "ipAddress=" + data.ip + "; expires=" + ipAddressExpiration.toUTCString() + "; path=/";
-        })
-        .catch(error => console.error(error));
-    }
+  //   function storeIPAddress() {
+  //     // Fetch user's IP address and store in cookie
+  //     fetch('https://api.ipify.org?format=json')
+  //       .then(response => response.json())
+  //       .then(data => {
+  //         var ipAddressExpiration = new Date();
+  //         ipAddressExpiration.setTime(ipAddressExpiration.getTime() + (365 * 24 * 60 * 60 * 1000)); // Set expiration time to 1 year from now
+  //         document.cookie = "ipAddress=" + data.ip + "; expires=" + ipAddressExpiration.toUTCString() + "; path=/";
+  //       })
+  //       .catch(error => console.error(error));
+  //   }
   
-    function setCookie(name, value, days) {
-      var expires = "";
-      if (days) {
-        var date = new Date();
-        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-        expires = "; expires=" + date.toUTCString();
-      }
-      document.cookie = name + "=" + encodeURIComponent(value || "") + expires + "; path=/";
-    }
+  //   function setCookie(name, value, days) {
+  //     var expires = "";
+  //     if (days) {
+  //       var date = new Date();
+  //       date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+  //       expires = "; expires=" + date.toUTCString();
+  //     }
+  //     document.cookie = name + "=" + encodeURIComponent(value || "") + expires + "; path=/";
+  //   }
   
-    function getCookie(name) {
-      var nameEQ = name + "=";
-      var ca = document.cookie.split(';');
-      for (var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-        if (c.indexOf(nameEQ) == 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
-      }
-      return "";
-    }
-  };
+  //   function getCookie(name) {
+  //     var nameEQ = name + "=";
+  //     var ca = document.cookie.split(';');
+  //     for (var i = 0; i < ca.length; i++) {
+  //       var c = ca[i];
+  //       while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+  //       if (c.indexOf(nameEQ) == 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
+  //     }
+  //     return "";
+  //   }
+  // };
   
   const multiplier = {
     translate: .1,
