@@ -576,6 +576,7 @@ strong {
     }
     .col li p{
         display: grid !important;
+        line-height: 20px;
     }
     
 }
@@ -1926,7 +1927,7 @@ section {
     }
     .namecopy{
         font-size: 13px !important;
-        font-weight: 500;
+        font-weight: 500 !important;
     }
 }
 @media screen and (max-width: 767px){
@@ -2409,6 +2410,7 @@ section {
     }
     .col li p{
         display: grid !important;
+        line-height: 10px !important;
     }
     
 }
