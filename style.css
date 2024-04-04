@@ -2866,6 +2866,9 @@ section {
     .lol_section {
         padding: 60px 30px;
     }
+    .col li{
+        align-items: end;
+    }
 }
 
 .col li{
