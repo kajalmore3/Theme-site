@@ -25,8 +25,20 @@
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
 }
-
-
+.card{
+  padding-top: 0;
+}
+.site_name{
+  font-size: 13px;
+  font-weight: 400;
+}
+.card-content{
+  padding: 20px;
+  border-radius: 1rem;
+}
+.card-content > figure > img{
+  object-fit: contain;
+}
 
 }
 @media (min-width: 77.5rem){
@@ -143,7 +155,7 @@ header {
 
 .card {
   position: sticky;
-  top: 135px;
+  top: 115px;
   padding-top: calc(var(--index) * var(--card-top-offset));
 }
 
