@@ -1448,7 +1448,7 @@ section {
 .section-title {
     text-align: center;
     /* padding-bottom: 25px; */
-    padding-top: 3%;
+    /* padding-top: 3%; */
 }
 .section-title h2 {
     font-size: 32px;
@@ -1942,6 +1942,12 @@ section {
     background:#000000;
     border-top: 2px solid #000000;
 }
+.a_parnter{
+    margin-left: -8px !important;
+    margin-top: -8px !important;
+    font-size: 15px;
+    max-width: 120px !important;
+    }
 }
 
 
@@ -1952,10 +1958,30 @@ section {
     /* background-image: url(images/nn.jpg); */
         background-position: 50% 50%;
         min-height:  549px;
+        background-color: #000;
     }
     .about_banner{
         background-image: url(images/bg-our\ service.webp);
        
+    }
+    .a_parnter{
+        /* display: inline-block;
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff; */
+        width: 100%;
+        max-width: 150px;
+        margin: 0 auto;
+        padding: 18px 10px;
+        border: 1px solid #686565;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(255,255,255,.5);
+        background: 0 0;
+        cursor: pointer;
+        margin-left: 5%;
+        color: #000;
+        font-weight: 700;
     }
     .AW{
     /* font-size: 5rem; */
@@ -2195,7 +2221,7 @@ width: 100%;
 .namecopy{
     /* font-family: sans-serif; */
     font-size: 22px;
-    font-weight: 800;
+    font-weight: 600;
 }
 .section-title1{
     text-align: center;
@@ -2869,11 +2895,17 @@ section {
     .col li{
         align-items: end;
     }
+    .a_parnter{
+    margin-left: -8px;
+    margin-top: -8px;
+    font-size: 15px;
+    max-width: 120px !important;
+    }
 }
 
 .col li{
     list-style: none;
-    color: #37517e;
+    color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
