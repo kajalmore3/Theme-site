@@ -28,17 +28,21 @@
 
 
 }
-@media (min-width: 768px){
+@media only screen and (max-width: 600px){
+  #cards{
+    grid-template-rows: none !important;
+  }
   .card{
     padding-top: 0;
   }
   .site_name{
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 300;
   }
   .card-content{
-    padding: 20px;
-    border-radius: 1rem;
+    font-family:sans-serif;
+    padding: 20px !important;
+    border-radius: 1rem !important;
   }
   .card-content > figure > a > img{
     object-fit: contain;
