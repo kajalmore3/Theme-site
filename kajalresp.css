@@ -76,6 +76,11 @@ html {
   --numcards: 4;
   --outline-width: 0px;
 }
+.work h1{
+  font-size: 2.6rem;
+    font-weight: 900;
+    text-align: center;
+}
 
 
 header, main {
@@ -84,10 +89,10 @@ header, main {
 }
 
 header {
-  height: 35vh;
+  /* height: 20vh; */
   display: grid;
   place-items: center;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 }
 
 #cards {
@@ -98,6 +103,7 @@ header {
   gap: var(--card-margin);
   padding-bottom: calc(var(--numcards) * var(--card-top-offset));
   margin-bottom: var(--card-margin);
+  padding-top: 50px;
 }
 
 #card-1 {
@@ -137,7 +143,7 @@ header {
 
 .card {
   position: sticky;
-  top: 0;
+  top: 135px;
   padding-top: calc(var(--index) * var(--card-top-offset));
 }
 
@@ -269,4 +275,7 @@ p {
     box-shadow: 0 0 10px rgba(255,255,255,.5);
     background: 0 0;
     cursor: pointer;
+}
+#our-work{
+  padding-top: 120px;
 }
