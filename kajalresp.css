@@ -28,17 +28,21 @@
 
 
 }
-@media (min-width: 768px){
+@media only screen and (max-width: 600px){
+  #cards{
+    grid-template-rows: none !important;
+  }
   .card{
     padding-top: 0;
   }
   .site_name{
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 300;
   }
   .card-content{
-    padding: 20px;
-    border-radius: 1rem;
+    font-family:sans-serif;
+    padding: 20px !important;
+    border-radius: 1rem !important;
   }
   .card-content > figure > a > img{
     object-fit: contain;
@@ -294,3 +298,132 @@ p {
 #our-work{
   padding-top: 120px;
 }
+
+/* insta  */
+ .box {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #eeeeee;
+    padding-top: 40px;
+} 
+
+.cards {
+  position: relative;
+  width: 360px;
+  min-height: 400px;
+  background: rgb(255, 255, 255);
+  box-shadow: 15px 15px 60px rgba(0, 0, 0, 0.01);
+  padding: 20px;
+  transform: translateX(40vw);
+}
+
+.cards .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards .top .userDetails {
+  display: flex;
+  align-items: center;
+}
+
+.cards .top .userDetails .profile_img {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cards .top .userDetails h3 {
+  font-size: 16px;
+  color: #4d4d4d;
+  font-weight: 500;
+  line-height: 1em;
+}
+
+.cards .top .userDetails h3 span {
+  font-size: 0.7em;
+}
+
+.imgBox {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  margin: 10px 0 15px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 230px;
+}
+
+.buttons img {
+  max-width: 24px;
+  max-height: 24px;
+  cursor: pointer;
+}
+
+.buttons .left img {
+  margin-right: 8px;;
+}
+
+.likes {
+  font-weight: 500;
+  margin-top: 5px;
+  font-size: 16px;
+  color: #4d4d4d;
+  margin-right: 235px;
+
+}
+
+.message {
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #4d4d4d;
+  width: 100%;
+  line-height: 1.0rem;
+  text-align: left;  
+}
+
+.message b {
+  color: #262626;
+}
+
+.settings:after {
+  content: '\2807';
+  font-size: 25px;
+  color: #4d4d4d;
+  cursor: pointer;
+}
+
+.icon:hover {
+  opacity: 0.7;
+}
+
+.insta{
+  color: rgb(11 87 208);        
+}
+.insta:hover{
+text-decoration: underline !important; 
+
+}
+/* .owl-carousel{
+  display: flex !important;
+} */
