@@ -115,6 +115,25 @@ header {
 #card-4 {
   --index: 4;
 }
+#card-5{
+  --index:5;
+}
+#card-6{
+  --index:6;
+}
+#card-7{
+  --index:7;
+}
+#card-8{
+  --index:8;
+}
+#card-9{
+  --index:9;
+}
+#card-10{
+  --index:10;
+}
+
 
 .card {
   position: sticky;
