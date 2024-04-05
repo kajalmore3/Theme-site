@@ -549,15 +549,26 @@ strong {
         padding-left: 0;
         padding-bottom: 0;
         padding: 20px 10px;
+        display: block !important;
     }
     #footer .copyright {
-        text-align: center;
-    float: none !important;
+    display: inline-block !important;
+    width: 100% !important;
+    text-align: center;
+}
+.social-links{
+    display: block !important;
+    width: 100% !important;
+    justify-content: center !important;
+    text-align: center;
+    padding: 10px;
 }
 #footer .credits {
     text-align: center;
-    float: none !important;
     margin-top: 5px ;
+    width: 100% !important;
+    display: block !important;
+    justify-content: center !important;
     }
     #footer .rowss{
         --bs-gutter-x:none;
@@ -2105,8 +2116,8 @@ section {
     margin-left: auto;
 }}
 #footer .footer-top {
-    padding: 60px 0 30px 0;
-    background: #f3f5fa
+    /* padding: 30px 0 30px 0; */
+    /* background: #f3f5fa */
 }
 #footer .footer-top .footer-links {
     margin-bottom: 30px;
