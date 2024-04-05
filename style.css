@@ -578,6 +578,9 @@ strong {
         display: grid !important;
         line-height: 20px;
     }
+    .about-us{
+        font-size: 40px !important;
+    }
     
 }
 
@@ -2877,10 +2880,11 @@ section {
         font-size: 19px;
     }
     .u-text-palette-2-base {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        letter-spacing: 2px;
     }
     .AW {
-        font-size: 3rem;
+        font-size: 2rem;
     line-height: 1;
     }
     .rowss{
