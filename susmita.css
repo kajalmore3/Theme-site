@@ -649,11 +649,16 @@ body{
     text-align: center;
 }
 
-.card i{
+.card >div{
+    display: flex;
+    justify-content: center;
+}
+.card >div > i{
     font-size: 50px;
     color: #cc4277;
     margin-bottom: 10px;
     display: block;
+
 }
 
 .card h3{
@@ -663,7 +668,29 @@ body{
     color: #343434;
     margin-bottom: 20px;
 }
-
+.icon_why{
+    background-image: url(images/sprite.png);
+    height: 50px;
+    width: 50px;
+}
+.ion-speedometer{
+    background-position: -15px -14px;
+}
+.ion-log-out{
+    background-position: -18px -136px;
+}
+.ion-monitor{
+    background-position:64px -143px;
+}
+.ion-code{
+    background-position: -18px -71px;
+}
+.ion-radio-waves{
+    background-position:-88px -10px;
+}
+.ion-wifi{
+    background-position: -91px -77px;
+}
 
 @media screen and (max-width: 768px) {
     .cards{
