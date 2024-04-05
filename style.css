@@ -2979,7 +2979,7 @@ font-size: 15px;
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 60px 0;
+    padding: 0px 0;
     /* background-color: #1c1c1c; */
 }
 .section-bg{
@@ -3012,7 +3012,7 @@ font-size: 15px;
     padding: 0 15px;
 } */
 .hero-block .content-wrap {
-    padding: 30px 0;
+    /* padding: 30px 0; */
 }
 .hero-block .content-wrap .block-title {
     font-family: joyride std, sans-serif;
