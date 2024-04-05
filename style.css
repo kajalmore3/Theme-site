@@ -1374,11 +1374,11 @@ padding-right: calc(var(--bs-gutter-x)* .5);
         left: calc(50% - 20px);
     }
 
-    .why_wrap {
+    /* .why_wrap {
         display: grid;
         grid-gap: 20px;
         grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
+    } */
 
     .why_tab {
         display: flex;
@@ -3173,7 +3173,8 @@ font-size: 15px;
     font-family: joyride std, sans-serif;
     font-weight: 900;
     color: #fff;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    padding-top: 40px;
    
 }
 
