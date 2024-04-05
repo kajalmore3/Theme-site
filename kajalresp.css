@@ -47,7 +47,53 @@
   .card-content > figure > a > img{
     object-fit: contain;
   }
+  .header, main{
+    width: 100vw !important;
+    padding: 20px;
+  }
+  
 }
+@media only screen and (max-width: 600px){
+ 
+  .cards{
+    width: 300px !important;
+    transform: translateX(8vw) !important;
+  }
+  .cover{
+    object-fit: contain !important;
+  }
+  .imgBox {
+    height: 260px !important;
+  }
+  .likes{
+    margin-right: 0 !important;
+    text-align: left !important;
+  }
+  .buttons img{
+    margin: 5px;
+  }
+}
+@media only screen and (max-width: 767px){
+ 
+  .cards{
+    width: 300px !important;
+    transform: translateX(12vw) !important;
+  }
+  .cover{
+    object-fit: contain !important;
+  }
+  .imgBox {
+    height: 260px !important;
+  }
+  .likes{
+    margin-right: 0 !important;
+    text-align: left !important;
+  }
+  .buttons img{
+    margin: 5px;
+  }
+}
+
 @media (min-width: 77.5rem){
 .hero-block .content-wrap .block-title.medium-font {
     font-size: 90px;
@@ -304,7 +350,7 @@ p {
     /* display: flex; */
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background: #eeeeee;
     padding-top: 40px;
 } 
