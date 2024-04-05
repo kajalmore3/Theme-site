@@ -2144,14 +2144,20 @@ section {
     padding-top: 30px;
     padding-bottom: 30px;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #footer .copyright {
-    float: left;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
 }
 #footer .credits {
     float: right;
-    padding-left: .5rem;
-    font-size: 13px;
+    width: 33.33%;
+    display: flex;
+    justify-content: end;
 }
 #footer .credits a {
     transition: 0.3s;
@@ -2177,7 +2183,11 @@ section {
     height: 40px;
     transition: 0.3s;
 }
-
+.social-links{
+    display: flex !important;
+    width: 33.33%;
+    justify-content: start;
+}
 
 .facenbook1 {
     background-position: -7px -12px;
