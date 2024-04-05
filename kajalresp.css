@@ -45,7 +45,8 @@
     border-radius: 1rem !important;
   }
   .card-content > figure > a > img{
-    object-fit: contain;
+    object-fit: contain !important;
+    height: 80% !important;
   }
   .header, main{
     width: 100vw !important;
@@ -91,6 +92,9 @@
   }
   .buttons img{
     margin: 5px;
+  }
+  .card-content >div >h2{
+    width: 122px;
   }
 }
 
