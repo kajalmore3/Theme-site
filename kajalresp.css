@@ -516,9 +516,9 @@ text-decoration: underline !important;
   display: flex;
   position: relative;
 }
-.image-70 {
+/* .image-70 {
   width: 100%;
-}
+} */
 
 img {
   vertical-align: middle;
