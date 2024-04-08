@@ -713,173 +713,44 @@ body{
     }
 }
 
-
-
-/* popup */
-.popup_img{
-    font-family: 'Saira Semi Condensed', sans-serif;
-    background: #ccc;
-  padding:30px;
-}
-/* .popup-link{
-  display:flex;
-  flex-wrap:wrap;
-} */
-.popup-link{
-/* display: inline-flex; */
-width: 179px; 
-height: 118px; 
-flex: 0 0 auto;
-}
-
-.popup-link a{
-    /* background: #333; */
-    color: #fff;
-    padding: 10px 30px;
-    border-radius: 5px;
-    font-size:17px;
-    cursor:pointer;
-    /* margin:20px; */
-    text-decoration:none;
-}
-
-.popup-container {
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.3s ease-in-out;
-    transform: scale(1.3);
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(21, 17, 17, 0.61);
-    display: flex;
-    align-items: center;
-}
-.popup-content {
-  display: flex;
-  position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 50%;
-}
-.popup-content p{
-    font-size: 17px;
-    padding: 10px;
-    line-height: 20px;
-}
-.popup-content a.close{
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    background: none;
-    padding: 0;
-    margin: 0;
-    text-decoration:none;
-    position: absolute;
-    top: 0;
-    right: 10px;
-}
-
-.popup-content a.close:hover{
-  color:#333;
-}
-
-.popup-content span:hover,
-.popup-content span:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.popup-container:target{
-  visibility: visible;
-  opacity: 1;
-  transform: scale(1);
-}
-
-.popup-container h3{
-  margin:10px;
-}
-.pop_img{
-    width: 300px ;
-}
-.patners_wrap{
-    display: flex;
-    padding: 20px 0px;
-    overflow: hidden;
-}
-#popup{
+/* scroll  */
+#logo-ticker {
     margin: 0px auto;
     /* padding: 60px 0px; */
     background-color: #fff;
     width: 100%;
     /* position: relative; */
 }
-#popup .susmita {
-    /* display: inline-block;
-    list-style: none;
-    margin: 0;
-    padding: 8px 0;
-    height: 120px; */
-    width: 100%;
-    /* overflow: hidden; */
-    /* position: absolute; */
-}
-.susmita .kajal {
-    /* position: relative;
-    display: inline-block; */
-    display: flex;
-    overflow: hidden;
-    width: 100%; /* Ensure the container takes full width */
-    /* animation: scrollLogos 10s linear infinite;  */
-
-    /* min-width: calc(179px * 12); Assuming 12 logos with a width of 179px each */
-}
-.susmita .popup-link {
+   #logo-ticker .footer-logo-slider {
+        display: inline-block;
+        list-style: none;
+        margin: 0;
+        padding: 8px 0;
+        height: 120px;
+        width: 100%;
+        overflow: hidden;
+        /* position: absolute; */
+   }
+.footer-logo-slider > ul {
+    position: relative;
     display: inline-block;
-    height: 118px;
-    width: 179px;
+}
+
+.footer-logo-slider li {
+    display: inline-block;
+    height: 90px;
+    width: 155px;
     padding: 5px;
-    /* position: absolute; */
-    /* top: 0; */
+    position: absolute;
+    top: 0;
 }
 .logo {
     display: inline-block;
     height: 100%;
-    /* width: 100%; */
+    width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     /* position: absolute; */
-    top: 0;
-  }
-  @keyframes scrollLogos {
-    0% { transform: translateX(0); } /* Start position */
-    100% { transform: translateX(-100%); } /* End position */
-  }
-/* Apply animation to logo container */
-.susmita .kajal .popup-link {
-    animation: scrollLogos 20s linear infinite; /* Adjust duration as needed */
-    animation-play-state: running; /* Ensure animation is running by default */
-  }
-  
-  /* Pause animation on hover */
-  .susmita .kajal .popup-link:hover {
-    animation-play-state: paused;
-  }
-  
-  /* Ensure smooth transition when animation starts/restarts */
-  .susmita .kajal .popup-link img {
-    transition: opacity 0.5s ease-in-out;
-  }
-  
-  /* Fade in on hover */
-  .susmita .kajal .popup-link:hover img {
-    opacity: 1;
+    top: 20px;
   }
