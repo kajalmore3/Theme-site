@@ -1972,7 +1972,7 @@ section {
     /* background-image: url(images/nn.jpg); */
         background-position: 50% 50%;
         min-height:  549px;
-        background-color: #000;
+        /* background-color: #000; */
     }
     .about_banner{
         background-image: url(images/about\ banner.jpg);

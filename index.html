@@ -434,10 +434,13 @@
         <a href="#popup2"><img alt="" loading="lazy" src="https://assets-global.website-files.com/6120a7cbe0bf26ccc35177df/61bc8760ae351cc4a5ea2a06_netent.svg" class="logo"></a>
       </div>
       <div class="popup-link">
-        <a href="#popup2"><img alt="" loading="lazy" src="https://assets-global.website-files.com/6120a7cbe0bf26ccc35177df/61bc8760ae351cc4a5ea2a06_netent.svg" class="logo"></a>
+        <a href="#popup2"><img alt="" loading="lazy" src="https://assets-global.website-files.com/6120a7cbe0bf26ccc35177df/61bc87141638a93628d22405_evolutiongaming.svg" class="logo"></a>
+      </div>
+      <div class="popup-link">
+        <a href="#popup2"><img alt="" loading="lazy" src="https://assets-global.website-files.com/6120a7cbe0bf26ccc35177df/61bc86fff8002d1db99b2d75_elk.svg" class="logo"></a>
       </div>
     
-      <div id="popup1" class="popup-container">
+      <!-- <div id="popup1" class="popup-container">
         <div class="popup-content">
           <a href="#popup" class="close">&times;</a>
           <img alt="" src="https://assets-global.website-files.com/6120a7cbe0bf26ccc35177df/61bc8a31a37ef99531f10c36_pragmaticplay.svg" loading="lazy" class="pop_img">
@@ -459,7 +462,7 @@
           
         </div>
     </div>
-    
+     -->
     </div>
 </div>
 </div>
@@ -2061,7 +2064,42 @@
 
 
 
-
+<!-- scroll  -->
+<div id="logo-ticker">
+  <div class="footer-logo-slider">
+      <ul class="footer-logo">
+          <li>
+              <div class="logo" style="background-image: url(https://assets-global.website-files.com/6120a7cbe0bf26ccc35177df/61bc8a31a37ef99531f10c36_pragmaticplay.svg)"></div>
+          </li>
+      </ul>
+        <ul class="footer-logo">
+          <li>
+              <div class="logo" style="background-image: url(https://assets-global.website-files.com/6120a7cbe0bf26ccc35177df/61bc8760ae351cc4a5ea2a06_netent.svg)"></div>
+          </li>
+      </ul>
+       <ul class="footer-logo">
+          <li>
+              <div class="logo" style="background-image: url(https://assets-global.website-files.com/6120a7cbe0bf26ccc35177df/61bc87141638a93628d22405_evolutiongaming.svg)"></div>
+          </li>
+      </ul>
+       <ul class="footer-logo">
+          <li>
+              <div class="logo" style="background-image: url(https://assets-global.website-files.com/6120a7cbe0bf26ccc35177df/61bc878f81bbe0508463fec3_play%E2%80%99ngo.svg)"></div>
+          </li>
+      </ul>
+       <ul class="footer-logo">
+          <li>
+              <div class="logo" style="background-image: url(https://assets-global.website-files.com/6120a7cbe0bf26ccc35177df/61bc877706c46742ff0d5cd5_nolimitcity.svg)"></div>
+          </li>
+      </ul>
+       <ul class="footer-logo">
+          <li>
+              <div class="logo" style="background-image: url(https://assets-global.website-files.com/6120a7cbe0bf26ccc35177df/61bc86fff8002d1db99b2d75_elk.svg)"></div>
+          </li>
+      </ul>
+  </div>
+</div>
+<!-- scroll  -->
 
 
 
@@ -2122,9 +2160,10 @@
 <script src="home.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> 
 <!-- <script src="./script.js"></script> -->
 
-<script>
+<!-- <script>
   $(document).ready(function () {
     $(".owl-carousel").owlCarousel({
       loop: true,
@@ -2149,6 +2188,48 @@
     });
   });
 
+</script> -->
+
+<!-- scroll  -->
+<script>
+  var scroller = $('#logo-ticker div.footer-logo-slider');
+var scrollerContent = scroller.children('ul');
+scrollerContent.children().clone().appendTo(scrollerContent);
+var sum_width_of_elem = 0;
+scrollerContent.children().each(function() {
+  var $this = $(this);
+  $this.css('left', sum_width_of_elem);
+  sum_width_of_elem += $this.outerWidth(true);
+});
+
+var fullW = sum_width_of_elem / 2;
+var viewportW = scroller.width();
+
+// Scrolling speed management
+var controller = { curSpeed: 0, fullSpeed: 2 };
+var $controller = $(controller);
+var contSpeed = function(newSpeed) {
+var duration = 600;
+  $controller.stop(false).animate({ curSpeed: newSpeed });
+};
+
+// Pause on hover
+scroller.hover(function() {
+  contSpeed(0);
+}, function() {
+  contSpeed(controller.fullSpeed);
+});
+
+// Scrolling management; start the automatic scrolling//
+var doScroll = function() {
+  var curX = scroller.scrollLeft();
+  var newX = curX + controller.curSpeed;
+  if (newX > fullW * 2 - viewportW)
+    newX -= fullW;
+  scroller.scrollLeft(newX);
+};
+setInterval(doScroll, 20);
+contSpeed(controller.fullSpeed);
 </script>
 
 

@@ -721,9 +721,15 @@ body{
     background: #ccc;
   padding:30px;
 }
-.popup-link{
+/* .popup-link{
   display:flex;
   flex-wrap:wrap;
+} */
+.popup-link{
+/* display: inline-flex; */
+width: 179px; 
+height: 118px; 
+flex: 0 0 auto;
 }
 
 .popup-link a{
@@ -829,7 +835,11 @@ body{
     /* position: relative;
     display: inline-block; */
     display: flex;
-    overflow-x: scroll;
+    overflow: hidden;
+    width: 100%; /* Ensure the container takes full width */
+    /* animation: scrollLogos 10s linear infinite;  */
+
+    /* min-width: calc(179px * 12); Assuming 12 logos with a width of 179px each */
 }
 .susmita .popup-link {
     display: inline-block;
@@ -848,4 +858,28 @@ body{
     background-position: center;
     /* position: absolute; */
     top: 0;
+  }
+  @keyframes scrollLogos {
+    0% { transform: translateX(0); } /* Start position */
+    100% { transform: translateX(-100%); } /* End position */
+  }
+/* Apply animation to logo container */
+.susmita .kajal .popup-link {
+    animation: scrollLogos 20s linear infinite; /* Adjust duration as needed */
+    animation-play-state: running; /* Ensure animation is running by default */
+  }
+  
+  /* Pause animation on hover */
+  .susmita .kajal .popup-link:hover {
+    animation-play-state: paused;
+  }
+  
+  /* Ensure smooth transition when animation starts/restarts */
+  .susmita .kajal .popup-link img {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  /* Fade in on hover */
+  .susmita .kajal .popup-link:hover img {
+    opacity: 1;
   }
