@@ -3277,6 +3277,11 @@ font-size: 15px;
 }
 
 
+.pops_row{
+    display: flex;
+}
 
-
+/* .popup_rowa{
+    display: flex;
+} */
 
