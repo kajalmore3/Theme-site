@@ -668,29 +668,7 @@ body{
     color: #343434;
     margin-bottom: 20px;
 }
-.icon_why{
-    background-image: url(images/sprite.png);
-    height: 50px;
-    width: 50px;
-}
-.ion-speedometer{
-    background-position: -15px -14px;
-}
-.ion-log-out{
-    background-position: -18px -136px;
-}
-.ion-monitor{
-    background-position:64px -143px;
-}
-.ion-code{
-    background-position: -18px -71px;
-}
-.ion-radio-waves{
-    background-position:-88px -10px;
-}
-.ion-wifi{
-    background-position: -91px -77px;
-}
+
 
 @media screen and (max-width: 768px) {
     .cards{
@@ -754,3 +732,117 @@ body{
     /* position: absolute; */
     top: 20px;
   }
+
+  /* whyvrnl */
+  .container_wrapper{
+    /* width: 1080px; */
+    margin: 0 auto;
+    padding: 40px;
+}
+.mg_head{
+    text-align: center;
+}
+.mg_head_text{
+    font-size: 48px;
+font-weight: 500;
+text-transform: uppercase;
+line-height: 1.5em;
+letter-spacing: 2px;
+color: #c0a226d9;
+font-weight: 700;
+}
+.mg_sub_text{
+    font-size: 28px;
+font-weight: 600;
+line-height: 1.28em;
+font-weight: 600;
+padding-bottom: 40px;
+}
+.body_wrap{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.body_right{
+    width: 25%;
+    margin-left: 30px;
+}
+.body_mid{
+    width: 50%;
+    text-align: -webkit-center;
+    margin: auto;
+}
+.body_left{
+    width: 25%;
+}
+.product_wrap{
+    display: inline-flex;
+    margin-bottom: 20px
+}
+.logo_icon{
+    width: 60px;
+height: 60px;
+position: relative;
+display: block;
+background-color: #d5b220e8;
+border-radius: 50%;
+display: inline-flex;
+flex: 0 0 auto;
+margin-right: 20px;
+}
+.product_des{
+
+    width: 160px;
+}
+.product_descripton{
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.74;
+    font-weight: 600;
+}
+.mid_back{
+    width: 510px;
+    height: 522px;
+    border-radius: 50%;
+    background-color: #c0a226d9;
+    position: relative;
+}
+
+.site_img2{
+    height: 400px;
+    display: inline-block;
+    position: absolute;
+    top: -31px;
+right: 260px;
+}
+ .site_img{
+    height: 400px;
+    display: inline-block;
+    position: absolute;
+    top: -51px;
+    right: 79px;
+}
+.icon_why {
+background-image: url(images/sprite.png);
+height: 65px;
+width: 65px;
+}
+.ion-log-out {
+background-position:-10px -132px;
+}
+.ion-wifi {
+background-position: -81px -65px;
+}
+.ion-radio-waves {
+background-position: -82px -4px;
+}
+.ion-code {
+background-position: -11px -63px;
+}
+.ion-monitor {
+background-position: 70px -134px;
+}
+.ion-speedometer {
+background-position: -8px -5px;
+}
