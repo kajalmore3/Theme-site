@@ -915,6 +915,36 @@ background-position: -8px -5px;
     text-align: left;
     padding: 20px;
 }
+@media screen and (max-width: 767px){
+    .container_wrapper {
+        padding: 20px;
+    }
+    .body_wrap{
+        display: block;
+    }
+    .body_mid{
+        width: 100%;
+        margin: 40px 0;
+    }
+    .mid_back{
+        width: 100%;
+    }
+    .site_img2 {
+        height: 400px;
+        display: inline-block;
+        position: absolute;
+        top: -31px;
+        right: 145px;
+    }
+    .site_img{
+        height: 400px;
+    display: inline-block;
+    position: absolute;
+    top: -51px;
+    right: 6px;
+    }
+
+}
 
 @media screen and (max-width: 768px){
     .popup p{
