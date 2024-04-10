@@ -740,6 +740,7 @@ body{
     margin: 0 auto;
     padding: 40px;
     color: #000;
+    background-color: #cfcfcf2e;
 }
 .mg_head{
     text-align: center;
@@ -963,7 +964,7 @@ background-position: -8px -5px;
     .popup{
         top: 55%
     }
-    
+
 }
 .card-content.safe{
     background: none !important;
