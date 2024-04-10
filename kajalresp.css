@@ -78,7 +78,7 @@
  
   .cards{
     width: 300px !important;
-    transform: translateX(12vw) !important;
+    transform: translateX(10vw) !important;
   }
   .cover{
     object-fit: contain !important;
@@ -172,7 +172,7 @@ header {
   gap: var(--card-margin);
   padding-bottom: calc(var(--numcards) * var(--card-top-offset));
   margin-bottom: var(--card-margin);
-  padding-top: 50px;
+  padding-top: 5px;
 }
 
 #card-1 {
@@ -267,12 +267,21 @@ h2 {
   font-family: 'Cormorant Garamond', serif;
   margin: 0;
 }
+.content-wrap{
+  width: 80%;
+}
+.grid{
+  display: flex;
+  margin-top: 60px
+}
 /* 
 p {
   font-weight: 300;
   line-height: 1.42;
   font-size: 1.1rem;
 } */
+
+
 
 /* Animation */
 @supports (animation-timeline: works) {
@@ -328,6 +337,19 @@ p {
         ));
     }
   }
+}
+@media screen and (max-width: 768px){
+  .grid{
+    display: block;
+    margin-top: 0px;
+  }
+  .card{
+    margin-right: 0px;
+  }
+  .content-wrap {
+    width: 100%;
+    text-align: justify;
+}
 }
 .lb_parnter .lb_partner_wrap .lb_partner_wrap_inn .a_parnter {
     display: inline-block;
