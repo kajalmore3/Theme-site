@@ -745,20 +745,21 @@ body{
     text-align: center;
 }
 .mg_head_text{
-    font-size: 48px;
-font-weight: 500;
-text-transform: uppercase;
-line-height: 1.5em;
-letter-spacing: 2px;
-color: #c0a226d9;
-font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    color: #c0a226d9;
+    font-weight: 900;
+    padding-top: 70px;
 }
 .mg_sub_text{
-    font-size: 28px;
-font-weight: 600;
-line-height: 1.28em;
-font-weight: 600;
-padding-bottom: 40px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.28em;
+    font-weight: 600;
+    padding-bottom: 40px;
+    color: #686868;
 }
 .body_wrap{
     display: flex;
@@ -963,8 +964,9 @@ background-position: -8px -5px;
         top: 55%
     }
 }
-.safe{
+.card-content.safe{
     background: none !important;
     box-shadow: none !important;
     text-align: left;
+    padding-top: 0;
 }
