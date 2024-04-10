@@ -215,6 +215,7 @@ header {
   position: sticky;
   top: 115px;
   padding-top: calc(var(--index) * var(--card-top-offset));
+  list-style: none;
 }
 
 .card-content {
@@ -265,7 +266,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 2.5rem;
-  font-family: 'Cormorant Garamond', serif;
+  /* font-family: 'Cormorant Garamond', serif; */
   margin: 0;
 }
 .content-wrap{
