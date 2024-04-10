@@ -1984,7 +1984,8 @@ section {
         background-color: #000;
     }
     .about_banner{
-        background-image: url(images/about\ banner.jpg);
+        /* background-image: url(images/about\ banner.jpg); */
+        background: linear-gradient(rgba(39, 44, 51, 0.9), rgba(11, 12, 14, 0.9)), url(images/about\ banner.jpg) fixed center center !important;
        
     }
     .a_parnter{
