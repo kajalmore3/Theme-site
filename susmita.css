@@ -647,6 +647,7 @@ body{
 .card{
     width: 100%;
     text-align: center;
+    margin-right: 295px;
 }
 
 .card >div{
@@ -961,4 +962,9 @@ background-position: -8px -5px;
     .popup{
         top: 55%
     }
+}
+.safe{
+    background: none !important;
+    box-shadow: none !important;
+    text-align: left;
 }
