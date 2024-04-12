@@ -722,8 +722,8 @@ body{
 
 .footer-logo-slider li {
     display: inline-block;
-    height: 90px;
-    width: 155px;
+    height: 55px;
+    width: 130px;
     padding: 5px;
     position: absolute;
     top: 0;
@@ -978,3 +978,176 @@ background-position: -8px -5px;
     text-align: left;
     padding-top: 0;
 }
+@media screen and (max-width: 300px){
+    .lb_header{
+        width: 100%;
+    }
+    .partner-title2{
+        font-size: 25px !important;
+        padding-top: 20px !important;
+    }
+    .clients_sub_text1{
+        width: 100% !important;
+    }
+    .lb_header .lb_logo{
+        width: 50%;
+    }
+    .product_des{
+        width: 150px;
+    }
+    .body_right{
+        margin-left: 0;
+    }
+    .service_banner{
+        padding: 20px;
+    }
+    .col-md-6{
+        margin-left: 0;
+    }
+    .col-xl-3{
+        padding: 0;
+    }
+    .content-wrap{
+        padding: 20px;
+    }
+    
+}
+@media (max-width: 300px){
+    .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: calc(-1* var(--bs-gutter-y));
+        /* margin-right: calc(-.5* var(--bs-gutter-x)); */
+        margin-left: calc(-.5* var(--bs-gutter-x));
+        margin-right: 0px;
+    }
+    .text{
+        font-size: 17px;
+    }
+    
+    .art{
+        & .workkk{
+        & h2 {
+            font-size: 16px;
+            font-weight: 800;
+}
+        }
+        }
+        
+        
+.u-section-2 .u-text-1 {
+    font-size: 1.25rem !important;
+
+}
+.u-section-2 .u-image-3 {
+
+    width: 234px !important;
+    height: 234px !important;
+    margin:0 !important;
+}
+.u-section-2 .u-image-1 {
+    width: 234px !important;
+    height: 234px !important;
+    margin: 10% 364px 0 auto !important;
+}
+.u-section-2 .u-image-6 {
+    width: 217px !important;
+    height: 217px !important;
+    margin-top: 600px !important;
+    margin-right: 35% !important;
+}
+.u-section-2 .u-image-5 {
+    width: 136px!important;
+    height: 136px!important;
+    margin-top: -711px!important;
+    margin-left: 0!important;
+}
+.u-section-2 .u-image-2 {
+    width: 170px!important;
+    height: 156px!important;
+    margin-top: 168px!important;
+    margin-right: 101px!important;
+    margin-left: auto!important;
+    margin-bottom: 2%!important;
+}
+.u-text-palette-2-base{
+    font-size: 40px !important;
+}
+.con {
+    margin: 5% 0 12% 0;
+}
+.sub_wrap{
+    padding: 0;
+}
+section {
+    padding: 60px 20px;
+    overflow: hidden;
+}
+.rowa {
+    margin: 0;
+}
+.containerss{
+    padding: 0;
+}
+.rowss{
+    padding: 0;
+}
+.art{
+
+    & .workkk {
+        padding: 0;
+        text-align: center;
+}
+
+}
+.containercc{
+    padding: 0 20px;
+    text-align: center;
+}
+.col-xl-3{
+    padding:0 15px;
+}
+.cont1{
+    padding: 0;
+}
+
+.col-md-6{
+    margin-left: 0;
+        }
+.lol_section{
+    padding: 60px 20px !important;
+}
+.partner-title1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.section-title{
+    padding: 0;
+}
+.container .inner_grid {
+    --size: 98px !important;
+    }
+    .containerhero{
+        padding: 0px 15px;
+    }
+    .col{
+        padding: 10px 12px !important;
+        font-size: 13px;
+    }
+    .col li{
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+        padding-right: 20px;
+    }
+    .col li p{
+        display: grid !important;
+        line-height: 10px !important;
+    }
+    
+}
+
+
