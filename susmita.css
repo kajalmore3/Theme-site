@@ -1,7 +1,7 @@
 .lb_slider {
     width: 100%;
     overflow: hidden;
-    background: url(banner.jpg) no-repeat center center;
+    background: url(images/banner.webp) no-repeat center center;
     padding: 0;
     position: relative;
     background-size: 100% 100%;
@@ -42,9 +42,14 @@
     display: inline-block;
     font-size: 16px;
     color: #fff;
-    background: #c0a226;
+    /* background: #c0a226; */
+    /* background: #d08c3e; */
     padding: 9px 22px;
-    margin: 0 0 46px
+    margin: 0 0 46px;
+
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255,255,255,.5);
 }
 
 .lb_slider .mainslider .item .lb_sld_cont h3 {
@@ -750,7 +755,8 @@ body{
     text-transform: uppercase;
     line-height: 1.5em;
     letter-spacing: 2px;
-    color: #c0a226d9;
+    /* color: #c0a226d9; */
+    color: #131212;
     font-weight: 900;
     padding-top: 70px;
 }
@@ -827,7 +833,7 @@ right: 260px;
     right: 79px;
 }
 .icon_why {
-background-image: url(images/sprite.png);
+background-image: url(images/sprite.webp);
 height: 65px;
 width: 65px;
 }

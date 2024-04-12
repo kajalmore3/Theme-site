@@ -260,10 +260,16 @@ strong {
     color: #fff;
 }
 .partner-title2 {
-    font-size: 60px;
-    font-weight: 900;
+   
     margin-bottom: .8em;
-    color: #c0a226d9;
+    /* color: #c0a226d9; */
+    color: #131212;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 900;
+    padding-top: 70px;
    
    
 }
@@ -1123,15 +1129,15 @@ section {
     margin-left: auto;
 }
 
-.section-title h2 {
+/* .section-title h2 {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #37517e;
-}
+   
+} */
 .section-title h2::before {
     content: '';
     position: absolute;
@@ -1381,18 +1387,6 @@ padding-right: calc(var(--bs-gutter-x)* .5);
         width: 100%;
         padding: 40px;
     }
-
-
-    .section-title h2 {
-        font-size: 32px;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin-bottom: 20px;
-        padding-bottom: 20px;
-        position: relative;
-        color: #37517e;
-    }
-
     .section-title h2::before {
         content: '';
         position: absolute;
@@ -1415,11 +1409,6 @@ padding-right: calc(var(--bs-gutter-x)* .5);
         left: calc(50% - 20px);
     }
 
-    /* .why_wrap {
-        display: grid;
-        grid-gap: 20px;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    } */
 
     .why_tab {
         display: flex;
@@ -1494,15 +1483,7 @@ section {
     /* padding-bottom: 25px; */
     /* padding-top: 3%; */
 }
-.section-title h2 {
-    font-size: 32px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    color: #37517e;
-}
+
 .section-title h2::before {
     content: '';
     position: absolute;
@@ -2005,8 +1986,8 @@ section {
         background-color: #000;
     }
     .about_banner{
-        /* background-image: url(images/about\ banner.jpg); */
-        background: linear-gradient(rgba(39, 44, 51, 0.9), rgba(11, 12, 14, 0.9)), url(images/about\ banner.jpg) fixed center center !important;
+       
+        background: linear-gradient(rgba(39, 44, 51, 0.9), rgba(11, 12, 14, 0.9)), url(images/about\ banner.webp) fixed center center !important;
        
     }
     .a_parnter{
@@ -3219,8 +3200,7 @@ font-size: 15px;
 .pops_row{
     display: flex;
 }
-
-/* .popup_rowa{
-    display: flex;
-} */
+.owl-dot{
+    display: none;
+}
 
