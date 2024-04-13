@@ -978,7 +978,7 @@ background-position: -8px -5px;
     text-align: left;
     padding-top: 0;
 }
-@media screen and (max-width: 300px){
+@media screen and (max-width: 480px){
     .lb_header{
         width: 100%;
     }
@@ -1010,9 +1010,46 @@ background-position: -8px -5px;
     .content-wrap{
         padding: 20px;
     }
+    .container{
+        padding: 0px !important;
+    } 
+    .lb_slider .mainslider .item .lb_sld_img .sicard{
+        left: 0;
+    }   
+    .content{
+        width: 100%;
+    }
+    .u-text-palette-2-base{
+        font-size: 30px !important;
+    }
+    .hero-block .content-wrap .text-content {
+        padding: 15px;
+    }
+    .mid_back{
+        width: 250px;
+        height: 250px;
+    }
+    .site_img img{
+       height: 303px;
+    }
+    .site_img2 img{
+        height: 303px;
+    }
+    .site_img2 {
+        right: 111px;
+    }
+    .row {
     
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        
+    }
+    .row--gutter-20 {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 }
-@media (max-width: 300px){
+@media (max-width: 280px){
     .row {
         --bs-gutter-x: 1.5rem;
         --bs-gutter-y: 0;
@@ -1147,7 +1184,23 @@ section {
         display: grid !important;
         line-height: 10px !important;
     }
+    .row {
     
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        
+    }
+    .row--gutter-20 {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .mb-3, .my-3 {
+    
+        width: auto;
+    }
+    .section-title p {
+        width: 256px ;
+    }
 }
 
 
