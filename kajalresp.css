@@ -74,7 +74,7 @@
     margin: 5px;
   }
 }
-@media only screen and (max-width: 767px){
+/* @media only screen and (max-width: 767px){
  
   .cards{
     width: 300px !important;
@@ -96,7 +96,7 @@
   .card-content >div >h2{
     width: 122px;
   }
-}
+} */
 
 @media (min-width: 77.5rem){
 .hero-block .content-wrap .block-title.medium-font {
@@ -503,3 +503,205 @@ text-decoration: underline !important;
 
 }
 
+
+@media screen and (max-width:767px) {
+  .lb_header nav {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 10px 0;
+    margin: 0;
+    background:#000000;
+    border-top: 2px solid #000000;
+}
+.a_parnter{
+    margin-left: -8px !important;
+    margin-top: -8px !important;
+    font-size: 15px;
+    max-width: 120px !important;
+    }
+    .container, .container-wide, .container-small, .container-fluid, .container-medium {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+  .lb_header {
+    background: #000000;
+    padding: 15px 20px;
+    text-align: center
+}
+.about_banner{
+  background-size: contain;
+}
+.lb_header .lb_logo img {
+    max-height: 43px;
+}
+
+.lb_header nav {
+    display: none
+}
+
+.lb_header .lb_logo {
+    width: 195px
+}
+
+
+.lb_header nav {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 100%;
+    padding: 10px 0;
+    margin: 0;
+    background:#000000;
+    border-top: 2px solid #005dac
+}
+
+.lb_header nav ul {
+    width: 100%
+}
+
+.lb_header nav ul li {
+    width: 100%;
+    margin: 0;
+    margin: 10px 0;
+    padding: 0 20px;
+    /* / padding-bottom: 18px; / */
+}
+.lb_header nav ul li a{
+    font-size: 16px !important;
+}
+.lb_header nav ul li a::before {
+ bottom: -5px !important;
+
+}
+.namecopy{
+font-size: 15px !important;
+font-weight: 400 !important;
+}
+.content-wrap {
+  text-align: center;
+}
+.content-wrap h4{
+  font-size: 25px;
+}
+#hero h1 {
+        
+  font-size: 33px;
+  
+  line-height: 39px;
+ 
+}
+#hero h2{
+  font-size: 19px;
+}
+.u-text-palette-2-base {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+.AW {
+  font-size: 2rem;
+line-height: 1;
+}
+  #footer .footer-top .footer-links{
+    width: 100%;
+}
+#footer .footer-bottom{
+    padding-left: 0;
+    padding-bottom: 0;
+    padding: 20px 10px;
+    display: block !important;
+}
+#footer .copyright {
+display: inline-block !important;
+width: 100% !important;
+text-align: center;
+}
+#footer .footer-top .footer-contact img {
+  height: 85% !important;
+  width: 100% !important;
+}
+.social-links{
+display: flex !important;
+width: 100% !important;
+justify-content: center !important;
+text-align: center;
+padding: 10px;
+}
+#footer .credits {
+text-align: center;
+margin-top: 5px ;
+width: 100% !important;
+display: block !important;
+justify-content: center !important;
+}
+.col li{
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+  padding-right: 20px;
+}
+.col li p{
+  display: grid !important;
+  line-height: 20px;
+}
+.about-us{
+  font-size: 40px !important;
+}
+.mg_head_text{
+  font-size: 40px ;
+}
+.mg_sub_text{
+  font-size: 17px;
+}
+.hero-block .content-wrap .block-title{
+  text-align: center !important;
+}
+.hero-block .content-wrap .block-title{
+  line-height: 1.7 !important;
+  text-align: left;
+}
+#logo-ticker{
+  padding: 0 !important;
+}
+#logo-ticker .footer-logo-slider{
+  position: relative;
+}
+.footer-logo-slider > ul{
+  position: absolute;
+}
+.partner-title2{
+  font-size: 40px;
+  padding-top: 100px;
+}
+.work h1{
+  font-size: 40px !important;
+  padding-top: 50px;
+}
+.about_banner{
+  background-size: contain;
+}
+.cards{
+  width: 300px !important;
+  transform: translateX(10vw) !important;
+}
+.cover{
+  object-fit: contain !important;
+}
+.imgBox {
+  height: 260px !important;
+}
+.likes{
+  margin-right: 0 !important;
+  text-align: left !important;
+}
+.buttons img{
+  margin: 5px;
+}
+.card-content >div >h2{
+  width: 122px;
+}
+
+}
