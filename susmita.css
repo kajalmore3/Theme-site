@@ -967,6 +967,10 @@ background-position: -8px -5px;
     top: -51px;
     right: 6px;
     }
+    .popup img {
+      
+        margin-top: 0px;
+    }
 
 }
 
