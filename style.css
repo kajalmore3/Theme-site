@@ -1147,7 +1147,7 @@ section {
     bottom: 0;
     left: calc(50% - 20px);
 }
-.rowss {
+/* .rowss {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
@@ -1156,7 +1156,7 @@ section {
     margin-right: calc(-.5* var(--bs-gutter-x));
     margin-left: calc(-.5* var(--bs-gutter-x));
     padding: 0px 20px;
-}
+} */
 .align-items-stretch {
     align-items: stretch !important;
 }
@@ -2552,7 +2552,7 @@ section {
       transform: scale(0.65) translateY(65px);
     }
   }
-  .rotation-container {
+  /* .rotation-container {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -2624,7 +2624,7 @@ section {
     width: 7rem;
     height: 7rem;
     border-radius: 50%;
-    /* background-color: #5080c1bf; */
+    background-color: #5080c1bf;
     background: #37517e;
     background-image: -webkit-radial-gradient(top, circle cover, #3c3b52 0%, #37517e 80%);
     background-image: -moz-radial-gradient(top, circle cover, #3c3b52 0%, #37517e 80%);
@@ -2632,7 +2632,7 @@ section {
     background-image: radial-gradient(top, circle cover, #3c3b52 0%, #37517e 80%);
     -webkit-animation: scaling 20s infinite linear;
             animation: scaling 20s infinite linear;
-  }
+  } */
   .img-pa{
     width: 6rem;
     height: 5rem;
@@ -2648,7 +2648,7 @@ section {
     width: 5rem;
     margin-left: 1rem;
   }
-  .rotation-container .item-1 {
+  /* .rotation-container .item-1 {
     -webkit-animation-delay: -17.5s;
             animation-delay: -17.5s;
   }
@@ -2697,7 +2697,7 @@ section {
         left: 18rem;
     }
    
-  }
+  } */
 
 .inner_item a{
     text-align: center;
@@ -2767,7 +2767,7 @@ section {
 }
 }
 
-
+/* 
 @media (min-width: 853px){
 
 .rowss {
@@ -2775,7 +2775,7 @@ section {
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: nowrap !important;
-}}
+}} */
 .col{
     /* padding: 10px 30px; */
 }
@@ -2811,9 +2811,9 @@ section {
         font-size: 2rem;
     line-height: 1;
     }
-    .rowss{
+    /* .rowss{
         display: inline !important;
-    }
+    } */
 }
 @media (min-width:768px) and (max-width:1024px){
     .lol_section {
